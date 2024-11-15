@@ -1,0 +1,19 @@
+body {
+    background-color: burlywood;
+}
+.card {
+    display: inline-block;
+    width: 29%;
+    text-align: right;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    cursor: grab;
+}
+.pong {
+    text-align: center;
+    margin-left: -100px;
+    font-size: 50px;
+    color: brown;
+}
