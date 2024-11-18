@@ -13,16 +13,6 @@ img {
 }
 .pong {
     text-align: center;
-    margin-left: -100px;
     font-size: 50px;
     color: brown;
-}
-
-@media(max-width: 660px) {
-    body {
-        margin-left: 50px;
-    }
-    .pong {
-        text-align: right;
-    }
 }
