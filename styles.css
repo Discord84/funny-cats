@@ -1,18 +1,62 @@
 body {
     background-color: burlywood;
 }
+
 .card {
     display: inline-block;
     width: 29%;
     text-align: right;
 }
+
+header {
+    display: none;
+}
+
 img {
     width: 100%;
     object-fit: cover;
     cursor: grab;
 }
+
 .pong {
     text-align: center;
     font-size: 50px;
     color: brown;
+}
+
+.swiper {
+    width: 512px;
+    height: 512px;
+    display: none;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media(max-width: 660px) {
+    .pong {
+        display: none;
+    }
+    .card {
+        display: none;
+    }
+    .swiper {
+        display: block;
+    }
+    header {
+        display:  block;
+    }
 }
