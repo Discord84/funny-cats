@@ -66,4 +66,7 @@ img {
         display:  flex;
         max-width: 660px;
     }
+    img {
+        object-fit: cover;
+    }
 }
